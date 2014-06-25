@@ -1,0 +1,77 @@
+body {
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form{
+margin:0 auto;
+width:500px;
+margin-top:10px;
+margin-bottom:20px;
+}
+
+#weatherDir {
+    border: 1px solid black;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+	background-color: '#ffffff';
+    width: 500px;
+}
+.icon {
+    float:left;
+    margin-left:20px;
+}
+h1 {
+    font-size: 24px;
+    margin: 0 0 0 0px;
+}
+h2 {
+    font-size: 78px;
+    margin: 0 0 0 0px;
+}
+main > div {
+    float: left;
+}
+.weatherInfo {
+    line-height: 1.4285;
+}
+div > p {
+    margin-bottom:1px !important;
+}
+.weekDays {
+    width: 98px;
+    float:left;
+    font-size:12pt;
+    font-weight:bold;
+    height:85px;
+	border-right:2px dotted #B6B6B6;
+    text-align: center;
+}
+
+.weekDays:nth-child(5) {
+	border-right:0px dotted #B6B6B6;
+}
+.clear {
+    clear:both;
+}
+
+.zipInput {
+  background: none repeat scroll 0 0 #00FFFF;
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #6F6F6F;
+  height: 29px;
+  padding: 5px;
+  width: 500px;
+}
